@@ -1,0 +1,26 @@
+body{
+  background-color: silver;
+}
+h1{
+  text-align: center;
+  font-weight: 200px;
+}
+label{
+  font-size: 20px;
+}
+#inner-container{
+  text-align:center;
+}
+
+#image{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.thankYou{
+  font-size: larger;
+  font-style: oblique;
+}

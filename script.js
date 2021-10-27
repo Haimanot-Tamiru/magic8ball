@@ -17,8 +17,33 @@ function ask() {
   } else {
     alert("what is your question?");  
   }   
-  input.value = ""; //Clear the input field when you click on the button:
+  input.value = ""; //Clear the input field when you click on the ask button:
 }
 function reset() {
   document.getElementById("image").src=" ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+const tyBtn = document.createElement('button')
+document.body.append(tyBtn);
+// tyBtn.style.backgroundColor = ""
+tyBtn.innerText = "That is All";
+
+tyBtn.addEventListener("click", Thanks);
+
+function Thanks() {
+  const thankYou = document.createElement("h1");
+  document.body.append(thankYou);
+  thankYou.innerHTML="Thank you!!"
 }

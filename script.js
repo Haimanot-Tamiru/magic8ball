@@ -6,7 +6,6 @@ const responses = ["magic8ball_1.png ","magic8ball_2.png", "magic8ball_3.png","m
 // console.log(responses.length);
 resetBall.addEventListener("click",reset)
 button.addEventListener("click", ask);
-
 function ask() {
   if (input.value) {
     const randomBall = Math.floor(Math.random() * responses.length);
@@ -19,6 +18,7 @@ function ask() {
   }   
   input.value = ""; //Clear the input field when you click on the ask button:
 }
+
 function reset() {
   document.getElementById("image").src=" ";
 }
@@ -35,10 +35,18 @@ function reset() {
 
 
 
+
+
+
+
+
+
+
+
 const tyBtn = document.createElement('button')
 document.body.append(tyBtn);
 // tyBtn.style.backgroundColor = ""
-tyBtn.innerText = "That is All";
+// tyBtn.innerText = "";
 
 tyBtn.addEventListener("click", Thanks);
 
